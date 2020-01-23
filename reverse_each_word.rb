@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
   array = sentence.split
   array.map(&:reverse!)
-  array.each
+  array2 = array.join()
   return array
 end  
